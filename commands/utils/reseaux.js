@@ -29,7 +29,7 @@ module.exports = {
             value: "https://www.youtube.com/channel/UCLx6csBqG_oAbd8CdFBFO4w"
           },
           {
-            name: `<:4281tiktoklogo:992841619856433223> | __TikTok__`,
+            name: `<:4281tiktoklogo:992841619856433223>  | __TikTok__`,
             value: "https://www.tiktok.com/@logasie"
           }
         )
