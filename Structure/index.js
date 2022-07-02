@@ -7,7 +7,6 @@ const Logger = require("../utils/Logger");
 
 ['commands', 'buttons', 'selects'].forEach(x => client[x] = new Collection());
 ['EventUtil', 'CommandUtil', 'ButtonUtil', 'SelectUtil'].forEach(handler => { require(`../utils/handlers/${handler}`)(client)});
-require('../utils/Functions')(client);
 
 process.on('exit', code => { console.log(`Le processus s'est arrêté avec le code : ${code}`)});
 process.on('uncaughtException', (err, origin) => { console.log(`uncaughtException: ${err}`, `Origine: ${origin}`)});
