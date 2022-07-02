@@ -30,7 +30,7 @@ module.exports = {
           },
           {
             name: `__TikTok__`,
-            value: "\u200B"
+            value: "https://www.tiktok.com/@logasie"
           }
         )
         interaction.reply({content: ' ', embeds: [embed]});
