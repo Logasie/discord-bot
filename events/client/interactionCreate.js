@@ -1,4 +1,5 @@
 const ownerId = '988552763833188372';
+const prefix = '!';
 
 module.exports = {
     name: 'interactionCreate',
