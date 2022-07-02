@@ -1,6 +1,7 @@
 const { MessageEmbed } = require("discord.js");
 const { readdirSync } = require("fs");
 const commandFolder = readdirSync('./commands');
+const prefix = '!';
 
 const contextDescription = {
     userinfo: 'Renvoie des informations sur l\'utilisateur',
